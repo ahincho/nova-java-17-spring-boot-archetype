@@ -48,9 +48,9 @@ mvn spring-boot:run
 | You want | Use |
 |---|---|
 | A new Maven service | this archetype |
-| A new Gradle service | [nova-java-spring-boot-gradle-plugin](https://github.com/ahincho/nova-java-spring-boot-gradle-plugin) |
-| A new Quarkus service | [nova-java-quarkus-archetype](https://github.com/ahincho/nova-java-quarkus-archetype) |
-| To add Nova to an existing project | [nova-java-spring-boot-starter](https://github.com/ahincho/nova-java-spring-boot-starter) |
+| A new Gradle service | [nova-java-spring-boot-gradle-plugin](https://github.com/ahincho/nova-java-16-spring-boot-gradle-plugin) |
+| A new Quarkus service | [nova-java-quarkus-archetype](https://github.com/ahincho/nova-java-18-quarkus-archetype) |
+| To add Nova to an existing project | [nova-java-spring-boot-starter](https://github.com/ahincho/nova-java-12-spring-boot-starter) |
 
 ## Requirements
 
