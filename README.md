@@ -1,5 +1,14 @@
 # Nova Spring Boot Archetype
 
+> **Archived.** This archetype was never released, and it generated Maven
+> projects while Nova services build with Gradle since
+> [ADR-044](https://github.com/ahincho/nova-shared-01-docs/blob/main/adrs/java/ADR-044-toolchain-de-java.md).
+> A new Spring Boot service starts from
+> [nova-template-01-spring-boot-service](https://github.com/ahincho/nova-template-01-spring-boot-service)
+> («Use this template»), a real service whose CI keeps it compiling, as
+> [ADR-051](https://github.com/ahincho/nova-shared-01-docs/blob/main/adrs/shared/ADR-051-plantillas-de-servicio.md)
+> decides. Nothing consumes this artifact, so there is nothing to migrate.
+
 A Maven archetype that generates a Spring Boot service already sitting on
 the Nova Platform: the parent POM, the meta-starter, an annotated
 `Application` class, an `application.yaml` and a passing context test.
